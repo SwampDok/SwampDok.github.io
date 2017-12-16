@@ -1,0 +1,89 @@
+body {
+	background-color: #white;
+	
+	border-width: 4px;
+	border-style: groove;
+	border-color: gold;
+	
+	margin: 10px; /* Отступы вокруг */
+	
+	padding: 10px; /* Поля вокруг текста */ 
+}
+
+h1 {
+	font-style: normal; /*normal, italic или oblique*/
+	font-weight: bold;
+	font-size: 30px;
+	font-family: arial, sans-serif; 
+	
+	text-align: center;
+}
+
+h2 {
+	padding: 0px;
+}
+
+div {
+	margin-top: 0px; /* Отступ сверху */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Настройка таблицы */
+
+table {
+	border: 4px double black; /* Рамка вокруг таблицы */ 
+    border-collapse: separate; /* Способ отображения границы collapse | separate | inherit*/ 
+    width: 100%; /* Ширина таблицы */ 
+    border-spacing: 3px 3px; /* Расстояние между ячейками (слева-справа, сверхну-снизу*/ 
+	
+	text-align: center;
+}
+
+td {
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+
+tr.Content:hover {
+	background-color: LightCyan;
+}
+
+
+/* Настройка боксов*/
+
+#description {
+	font-style: normal; /*normal, italic или oblique*/
+	font-weight: normal;
+	font-size: 20 px;
+	font-family: arial, sans-serif;
+	
+	text-align: center;
+	
+	border-width: 2px;
+	border-style: dashed;
+	border-color: green;
+	
+	padding: 10px; /* Поля вокруг текста */ 
+}
+
+#voting {
+	text-align: center;
+	
+	border-width: 2px;
+	border-style: dashed;
+	border-color: blue;
+}
+
+#projects {
+	border-width: 2px;
+	border-style: dashed;
+	border-color: gray;
+}
+
+#footer {
+	border-width: 2px;
+	border-style: dashed;
+	border-color: green;
+	
+	padding: 10px; /* Поля вокруг текста */ 
+}
