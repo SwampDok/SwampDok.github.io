@@ -36,6 +36,8 @@ table {
     width: 100%; /* Ширина таблицы */ 
     border-spacing: 3px 3px; /* Расстояние между ячейками (слева-справа, сверхну-снизу*/ 
 	
+	margin-bottom: 10px; /* Отступ снизу */
+	
 	text-align: center;
 }
 
@@ -72,6 +74,8 @@ tr.Content:hover {
 	border-width: 2px;
 	border-style: dashed;
 	border-color: blue;
+	
+	padding: 10px; /* Поля вокруг текста */ 
 }
 
 #projects {
